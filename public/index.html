@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="icon" href="img/todo.ico">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <center>
+            <div class="box">
+                <div class="icon"><a onclick="refresh1()"><i class="fa fa-refresh" id="refresh"></i></a></div>
+                <div id="date">Monday,July 20</div>
+                <hr class="hr">
+            <div class="input" style="">
+                <a onclick="addTodo()"><i class="fa fa-plus-circle" style="font-size: 30px;" ></i></a>
+                <input type="text" placeholder="Add to do" id="todo-item" style="color: rgb(0, 0, 0);">
+            </div>
+            <hr class="hr1">
+            <ul id="list">
+            </ul>
+            </div>
+        </center>
+        <script src="app2.js"></script>
+    </body>
+</html>
